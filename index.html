@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>St Adam's High School</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="logo1.png" alt="Logo"></a>
+            <div class="nav-links" id="navlinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="gallery.html">GALLERY</a></li>
+                    <li><a href="parents.html">PARENTS</a></li>
+                    <li><a href="students.html">STUDENTS</a></li>
+                    <li><a href="contact.html">CONTACT US</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1>A School with Culture and Values</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus quod officiis 
+                ratione est, necessitatibus consequatur! Quidem assumenda rerum accusantium 
+                necessitatibus excepturi tempora iusto veritatis, temporibus perspiciatis 
+            </p>
+            <a href="" class="hero-btn">Visit us to know more</a>
+        </div>
+    </section>
+
+    <section class="course">
+        <h1>Academic Details</h1>
+        <p>We have Pre-Primary, Primary and High school. We offer classes from class Nursery to X
+        </p>
+        <div class="row">
+            <div class="course-col">
+                <h3>Pre Primary</h3>
+                <p>We have Nursery, Lower and Upper Kindergarden for small kids.
+                    We take utmost care and teach children values.
+                </p>
+            </div>
+            <div class="course-col">
+                <h3>Primary</h3>
+                <p>Primary school contains classes from I to V.
+                    Children are taught basic Arithmetic, English, Science and two other languages.
+                </p>
+            </div>
+            <div class="course-col">
+                <h3>High School</h3>
+                <p>High School Contains classes from VI to X.
+                    Children gain all the required knwoledge for higher studies. 
+                    We also inform them about all the career paths possible.
+                </p>
+            </div>
+        </div>
+    </section>
+    <section class="groups">
+        <h1>Our Student Teams</h1>
+        <p>We have four Houses in the school for students to participate actively in competitions
+           <br> These houses improve the sportiveness and team spirit for the students. 
+        </p>
+        <div class="row">
+            <div class="groups-col">
+                <img src="red.jpeg">
+                <div class="layer">
+                    <h3>Aryabhatta</h3>
+                </div>
+            </div>
+            <div class="groups-col">
+                <img src="blue.png">
+                <div class="layer">
+                    <h3>C.V Raman</h3>
+                </div>
+            </div>
+            <div class="groups-col">
+                <img src="green.jpg">
+                <div class="layer">
+                    <h3>Sushrutha</h3>
+                </div>
+            </div>
+            <div class="groups-col">
+                <img src="yellow.jpg">
+                <div class="layer">
+                    <h3>A.P.J Abdul Kalam</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="facilities">
+        <h1>Our Facilities</h1>
+        <p>We provide good and neat maintained classrooms. 
+            We are equipped with library, computer lab, sports, music room, yoga and many more facilities.
+        </p>
+        <div class="facilities-col">
+            <img src="lib.webp" alt="">
+            <h3>Well equipped Library</h3>
+            <p>Our library is equipped with great books that help children grow in multiple ways.</p>
+        </div>
+        <div class="facilities-col">
+            <img src="class.jpg" alt="">
+            <h3>Structured Classrooms</h3>
+            <p>Our classes and faculty are very great and help children study in a better environment</p>
+        </div>
+        <div class="facilities-col">
+            <img src="music.jpeg" alt="">
+            <h3>Music and Karate</h3>
+            <p>t</p>
+        </div>
+    </section>
+    <section class="contact">
+        <h1>Enroll for the Admission with us</h1>
+        <a href="contact.html" class="hero-btn">Contact Us</a>
+    </section>
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit quos magnam incidunt, 
+            possimus, adipisci corporis tempore praesentium ducimus nostrum voluptatum quibusdam
+             itaque, consequuntur odit eaque atque inventore in fuga! Reiciendis.</p>
+    </section>
+<!--Java script for toggle menu-->
+<script>
+    var navlinks = document.getElementById("navlinks");
+    function showMenu(){
+        navlinks.style.right = "0";
+    }
+    function hideMenu(){
+        navlinks.style.right = "-200px"
+    }
+</script>
+    
+</body>
+</html>
